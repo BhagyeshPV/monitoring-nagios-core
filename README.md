@@ -2,6 +2,7 @@
 ## 📝 Project Overview
 Implemented a centralized Nagios Core monitoring solution for OS infrastructure using NRPE-based remote monitoring. 
 The solution provides proactive monitoring of servers, services, resources, and system health through configurable alerts and dashboards.
+This configuration is based on Linux OS 
 
 ---
 ## 📌 Business Problem
