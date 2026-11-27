@@ -27,4 +27,7 @@ This file should contain all commands.
 # chown -R nagios:nagios /tmp/nagios-4.5.14
 # chmod -R 755 /tmp/nagios-4.5.14
 # apt install -y libperl-dev libtest-simple-perl
+
+<img width="940" height="371" alt="image" src="https://github.com/user-attachments/assets/c6d1f116-fdc0-4c91-9fe1-d4f4ff50b2dd" />
+
 ```
