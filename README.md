@@ -1,3 +1,12 @@
+## Monitoring Stack and Service Dashboards
+
+| | |
+|---|---|
+| **Level** | L2,L3 — Engineer |
+| **Role** | OS infra Admin/DevOps/SRE building the observability platform |
+| **Scope** | `nagios-core` — nagios-4.5.14, nagios-plugins-2.4.6, nrpe-4.1.3 |
+---
+
 
 ## 📝 Project Overview
 Implemented a centralized Nagios Core monitoring solution for OS infrastructure using NRPE-based remote monitoring. 
@@ -11,13 +20,6 @@ Organizations require continuous monitoring of OS servers to ensure system avail
 Manual checks are time-consuming and reactive, often resulting in delayed incident response. 
 This project implemented centralized monitoring to improve operational visibility and reduce downtime.
 
-This approach leads to:
-
-- Increased troubleshooting effort
-- Delayed incident resolution
-- Inconsistent health assessments
-- Risk of missing performance bottlenecks
-- Reduced operational efficiency
 ---
 
 ## 🎯 Objectives
@@ -32,7 +34,14 @@ The project aims to:
 - NRPE integration
 - Alerting and notifications
 - Dashboard visibility
----
+
+|Benefit | Impact |
+|---|---|
+| **Early detection** | Prevents outages and reduces MTTR |
+| **High reliability** | Ensures uptime and SLA compliance |
+| **Faster release** | Continuous feedback accelerates CI/CD |
+| **Collaboration** | Shared visibility across teams |
+| **Risk reduction** | Detects compliance and security issues |
 
 ## 🏗️ Architecture
 The architecture utilises Nagios Core, plugins, NRPE agents, and the web interface to monitor remote Linux systems
@@ -46,6 +55,8 @@ The architecture utilises Nagios Core, plugins, NRPE agents, and the web interfa
         NRPE Agent        NRPE Agent
              |                 |
       Linux Server 1    Linux Server 2
+
+<img width="791" height="513" alt="image" src="https://github.com/user-attachments/assets/d6afa5e2-d8b9-4c14-ba38-98b18a2cb360" />
 
 ---
 
